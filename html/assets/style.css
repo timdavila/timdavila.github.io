@@ -1,0 +1,49 @@
+#screen {
+    width:320px;
+    height:568px;
+    border:1px solid #abcdef;
+    font: 16px Verdana;
+    color: white;
+}
+#menu {
+    width: 100%;
+}
+#nav-head {
+    height: 34px;
+    background-color: SteelBlue;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+}
+#nav-head a {
+    float: right;
+    margin: 0px 5px 0px 0px;
+    padding: 4px 12px;
+}
+#nav-head a i {
+    font-size: 24px;
+}
+#nav-head b {
+    position: relative;
+    top: 8px;
+    margin-left: 10px;
+}
+#menu ul {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+#menu li {
+    list-style-type: none;
+    height: 35px;
+    display: block;
+    background-color: SteelBlue;
+    border-top: 1px solid white;
+}
+#menu li a {
+    display: block;
+    padding: 3px 0px 0px 10px;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
